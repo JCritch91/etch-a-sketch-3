@@ -9,8 +9,22 @@
 </head>
 <body>
     <div class="header">etch-a-sketch</div>
-    <button class="resetButton">Reset Grid</button>
-    <div class="gridContainer"></div>
-    <div class="footer">Copyright JCritch91 ©</div>
+    <div class="mainContainer">
+        <div class="sidebar">
+        <div class="slidecontainer">
+            <p class="slideNumber">10 x 10</p>
+           <input type="range" min="2" max="50" value="10" class="slider" id="myRange">
+        </div>
+        <button class="resetButton">Clear</button>
+        <button class="eraser">Erase</button>
+        <button class="black">Black</button>
+        <button class="random">Random Colour</button>
+        <button class="gradient">Gradient</button>
+        </div>
+        <div class="gridContainer"></div>
+    </div>
+    <div class="footer">Copyright JCritch91 ©
+        <a href="https://github.com/JCritch91" class="gitLogo"></a>
+    </div>
 </body>
 </html>
